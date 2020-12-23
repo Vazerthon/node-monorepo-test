@@ -25,9 +25,9 @@ module.exports = {
   target: "node",
   externals: {
     react: "react",
-    "@emotion": "@emotion",
+    "react/jsx-runtime": "react/jsx-runtime",
+    "react-dom": "react-dom",
     "@emotion/styled": "@emotion/styled",
-    "@emotion/react": "@emotion/react",
     "prop-types": "prop-types",
   },
 };
