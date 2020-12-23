@@ -1,10 +1,10 @@
-import { styled, Currency, Card, useThemeHook } from "@demo/ui";
+import styled from "@emotion/styled";
+import { Currency, Card } from "@demo/ui";
 
 const X = styled.div`
   color: purple;
 
-  /* Trying to use theme here causes an erro */
-  /* background-color: ${({ theme }) => theme.colour.primary}; */
+  background-color: ${({ theme }) => theme.colour.primary};
 `;
 
 function App() {

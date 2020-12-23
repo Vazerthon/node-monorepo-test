@@ -23,4 +23,11 @@ module.exports = {
     extensions: [".jsx", ".js"],
   },
   target: "node",
+  externals: {
+    react: "react",
+    "@emotion": "@emotion",
+    "@emotion/styled": "@emotion/styled",
+    "@emotion/react": "@emotion/react",
+    "prop-types": "prop-types",
+  },
 };

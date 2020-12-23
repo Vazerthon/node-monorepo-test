@@ -1,8 +1,8 @@
 const theme = {
-  color: {
-    primary: 'red',
-    secondary: 'blue',
-  }
+  colour: {
+    primary: "red",
+    secondary: "blue",
+  },
 };
 
 const buildTheme = (custom = {}) => ({
