@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 
 const X = styled.div`
   color: purple;
+  background-color: ${({ theme }) => theme.colour.primary};
 `;
 
 function App() {
