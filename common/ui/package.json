@@ -8,20 +8,20 @@
     "build-watch": "webpack --config webpack.prod.js --watch"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.8",
-    "@babel/preset-react": "^7.12.7",
-    "babel-loader": "^8.2.1",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "webpack": "^5.6.0",
+    "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"
   },
   "dependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.12.7",
-    "@babel/preset-env": "^7.12.7",
-    "@emotion/core": "^10.0.35",
-    "@emotion/styled": "^10.0.27",
-    "emotion-theming": "^10.0.27",
+    "@babel/plugin-transform-react-jsx": "^7.12.11",
+    "@babel/preset-env": "^7.12.11",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
     "prop-types": "^15.7.2"
   }
 }
